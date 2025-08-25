@@ -64,16 +64,6 @@ This will launch the demo interface with the following tabs:
 - Simulated confusion matrix for false positive/negative rates.
 
 
-🛠️ Project Structure:
-
-├── demo_app.py              # Main application (PyQt5 interface)
-├── requirements.txt         # Dependencies
-├── simulated_results/       # JSON/CSV files of pre-computed results
-├── presentation/            # Slides from defense
-│   └── Embedding Security - Audio Watermarking (Final).pptx
-└── README.md
-
-
 🔬 Research Context
 
 This demo is a companion to my senior research project, where I benchmarked state-of-the-art watermarking algorithms under adversarial conditions.
@@ -83,19 +73,6 @@ This demo is a companion to my senior research project, where I benchmarked stat
 . The full paper expands on methodology, architecture, and future directions such as algorithm rotation, blockchain timestamping, and adversarial training
 
 
-📌 Citation
-
-If you use this demo or research, please cite:
-
-@thesis{holland2025embeddingsecurity,
-  title={Embedding Security: Audio Watermarking and the Fight Against Unauthorized Music Leaks},
-  author={Holland, William},
-  school={Stetson University},
-  year={2025}
-}
-
-
 📬 Contact
 Created by William Holland
-Advisor: Dr. Hala ElArag
-Stetson University, 2025
+Email: wilywoonka@duck.com
