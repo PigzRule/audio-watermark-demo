@@ -41,11 +41,7 @@ Attack simulation modes:
 
 Result Visualization: Graphs of detection probability, robustness under noise, and adversarial impact.
 
-
 🚀 Getting Started:
-
-Prerequisites:
-- Python 3.9+
 
 Dependencies listed in requirements.txt
 "pip install -r requirements.txt"
