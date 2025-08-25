@@ -26,9 +26,12 @@ Three-tier modular architecture inspired by the original application
 - Settings & Help
 
 Simulated algorithms (based on test results):
-- AudioSeal: CNN-based time-domain watermarking (high imperceptibility, weaker under white-box).
-- WavMark: Spectrogram-based redundancy (robust under compression).
-- SilentCipher: Psychoacoustic masking (strongest resilience, sub-20 Hz encoding).
+[AudioSeal](https://github.com/facebookresearch/audioseal)
+- CNN-based time-domain watermarking (high imperceptibility, weaker under white-box).
+[WavMark](https://github.com/wavmark/wavmark)
+- Spectrogram-based redundancy (robust under compression).
+[SilentCipher](https://github.com/sony/silentcipher)
+- Psychoacoustic masking (strongest resilience, sub-20 Hz encoding).
 
 Attack simulation modes:
 - White-box (full knowledge)
@@ -50,9 +53,9 @@ Running the Demo
 "python demo_app.py"
 
 This will launch the demo interface with the following tabs:
-- Embed Watermark – Select an audio file and simulate watermark embedding.
-- Detect Watermark – Upload an audio file and check if a watermark is detected.
-- Security Testing – Run attack simulations and view resilience results.
+- Embed Watermark: Select an audio file and simulate watermark embedding.
+- Detect Watermark: Upload an audio file and check if a watermark is detected.
+- Security Testing: Run attack simulations and view resilience results.
 
 
 📊 Example Outputs
