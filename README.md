@@ -75,5 +75,5 @@ This demo is a companion to my senior research project, where I benchmarked stat
 
 
 📬 Contact
-- Created by William Holland
+- Name: William Holland
 - Email: wilywoonka@duck.com
