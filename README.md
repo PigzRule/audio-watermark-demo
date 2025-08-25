@@ -57,7 +57,8 @@ This will launch the demo interface with the following tabs:
 - Resilience charts showing robustness of AudioSeal, WavMark, and SilentCipher.
 - Simulated confusion matrix for false positive/negative rates.
 
-🛠️ Project Structure
+🛠️ Project Structure:
+
 ├── demo_app.py              # Main application (PyQt5 interface)
 ├── requirements.txt         # Dependencies
 ├── simulated_results/       # JSON/CSV files of pre-computed results
