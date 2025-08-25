@@ -24,9 +24,9 @@ Three-tier modular architecture inspired by the original application
 - Settings & Help
 
 Simulated algorithms (based on test results):
-[AudioSeal](https://github.com/facebookresearch/audioseal) | CNN-based time-domain watermarking (high imperceptibility, weaker under white-box).
-[WavMark](https://github.com/wavmark/wavmark) | Spectrogram-based redundancy (robust under compression).
-[SilentCipher](https://github.com/sony/silentcipher) | Psychoacoustic masking (strongest resilience, sub-20 Hz encoding).
+- [AudioSeal](https://github.com/facebookresearch/audioseal) | CNN-based time-domain watermarking (high imperceptibility, weaker under white-box).
+- [WavMark](https://github.com/wavmark/wavmark) | Spectrogram-based redundancy (robust under compression).
+- [SilentCipher](https://github.com/sony/silentcipher) | Psychoacoustic masking (strongest resilience, sub-20 Hz encoding).
 
 Attack simulation modes:
 - White-box (full knowledge)
