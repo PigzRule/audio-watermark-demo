@@ -73,6 +73,7 @@ This demo is a companion to my senior research project, where I benchmarked stat
 . The full paper expands on methodology, architecture, and future directions such as algorithm rotation, blockchain timestamping, and adversarial training
 
 
+
 📬 Contact
-Created by William Holland
-Email: wilywoonka@duck.com
+- Created by William Holland
+- Email: wilywoonka@duck.com
