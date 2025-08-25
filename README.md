@@ -6,7 +6,7 @@ This repository contains the demonstration version of my senior research project
 Unlike the full research implementation, this demo is designed to be lightweight, portable, and accessible. It simulates the logic and results of real watermark embedding, detection, and adversarial testing without requiring access to the original trained models.
 
 
-📖 Background
+📖 Background:
 Unauthorized leaks of unreleased music cause massive losses in revenue, control, and reputation for artists and labels.
 Audio watermarking offers a solution by embedding imperceptible identifiers into music, making leaks traceable while preserving listening quality.
 
@@ -18,7 +18,7 @@ This demo illustrates how watermarking systems can:
 
 For the full technical details, see the research paper (PDF).
 
-⚙️ Features
+⚙️ Features:
 
 Three-tier modular architecture inspired by the original application
 - Embed Watermark
@@ -42,7 +42,8 @@ Attack simulation modes:
 Result Visualization: Graphs of detection probability, robustness under noise, and adversarial impact.
 
 
-🚀 Getting Started
+🚀 Getting Started:
+
 Prerequisites:
 - Python 3.9+
 
@@ -58,13 +59,14 @@ This will launch the demo interface with the following tabs:
 - Security Testing: Run attack simulations and view resilience results.
 
 
-📊 Example Outputs
+📊 Example Outputs:
+
 - Detection probability graphs under adversarial settings.
 - Resilience charts showing robustness of AudioSeal, WavMark, and SilentCipher.
 - Simulated confusion matrix for false positive/negative rates.
 
 
-🔬 Research Context
+🔬 Research Context:
 
 This demo is a companion to my senior research project, where I benchmarked state-of-the-art watermarking algorithms under adversarial conditions.
 . AudioSeal dropped to 30% detection under white-box attacks due to exposed weights
@@ -72,8 +74,7 @@ This demo is a companion to my senior research project, where I benchmarked stat
 . SilentCipher consistently resisted adversarial perturbations by using psychoacoustic masking
 . The full paper expands on methodology, architecture, and future directions such as algorithm rotation, blockchain timestamping, and adversarial training
 
+📬 Contact:
 
-
-📬 Contact
 - Name: William Holland
 - Email: wilywoonka@duck.com
