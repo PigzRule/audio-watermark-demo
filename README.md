@@ -41,10 +41,10 @@ Result Visualization: Graphs of detection probability, robustness under noise, a
 
 🚀 Getting Started:
 
-Dependencies listed in requirements.txt
+Dependencies listed in requirements.txt:
 "pip install -r requirements.txt"
 
-Running the Demo
+Running the Demo:
 "python demo_app.py"
 
 This will launch the demo interface with the following tabs:
@@ -62,11 +62,11 @@ This will launch the demo interface with the following tabs:
 
 🔬 Research Context:
 
-This demo is a companion to my senior research project, where I benchmarked state-of-the-art watermarking algorithms under adversarial conditions.
-. AudioSeal dropped to 30% detection under white-box attacks due to exposed weights
-. WavMark maintained >90% resilience under compression & resampling
-. SilentCipher consistently resisted adversarial perturbations by using psychoacoustic masking
-. The full paper expands on methodology, architecture, and future directions such as algorithm rotation, blockchain timestamping, and adversarial training
+This demo is a companion to my senior research project, where I benchmarked state-of-the-art watermarking algorithms under adversarial conditions:
+- AudioSeal dropped to 30% detection under white-box attacks due to exposed weights
+- WavMark maintained >90% resilience under compression & resampling
+- SilentCipher consistently resisted adversarial perturbations by using psychoacoustic masking
+- The full paper expands on methodology, architecture, and future directions such as algorithm rotation, blockchain timestamping, and adversarial training
 
 📬 Contact:
 
