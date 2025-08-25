@@ -1,0 +1,406 @@
+Algorithm,Strength,Attack,Sample,Detected,SNR (Watermarked),SNR (Attacked)
+AudioSeal,0.005,clean (control) (No-box),03-01-06-01-02-02-01,0,6.05,6.05
+AudioSeal,0.005,speed (No-box),03-01-06-01-02-02-01,0,6.05,-3.57
+AudioSeal,0.005,echo (No-box),03-01-06-01-02-02-01,0,6.05,6.82
+AudioSeal,0.005,random_noise (Black-box),03-01-06-01-02-02-01,0,6.05,-3.11
+AudioSeal,0.005,pink_noise (Black-box),03-01-06-01-02-02-01,0,6.05,5.83
+AudioSeal,0.005,lowpass_filter (No-box),03-01-06-01-02-02-01,0,6.05,2.31
+AudioSeal,0.005,highpass_filter (No-box),03-01-06-01-02-02-01,0,6.05,-1.67
+AudioSeal,0.005,smooth (No-box),03-01-06-01-02-02-01,0,6.05,4.95
+AudioSeal,0.005,shush (No-box),03-01-06-01-02-02-01,0,6.05,6.06
+AudioSeal,0.005,mp3_compression (Black-box),03-01-06-01-02-02-01,1,6.05,-25.11
+AudioSeal,0.005,bandstop_filter (Grey-box),03-01-06-01-02-02-01,0,6.05,-3.6
+AudioSeal,0.005,adversarial_noise (White-box),03-01-06-01-02-02-01,0,6.05,-24.96
+AudioSeal,0.005,targeted_bandpass_noise (Grey-box),03-01-06-01-02-02-01,0,6.05,0.3
+AudioSeal,0.005,frequency_nulling (White-box),03-01-06-01-02-02-01,0,6.05,5.77
+AudioSeal,0.005,clean (control) (No-box),03-02-05-02-02-01-01,0,22.15,22.15
+AudioSeal,0.005,speed (No-box),03-02-05-02-02-01-01,0,22.15,-3.37
+AudioSeal,0.005,echo (No-box),03-02-05-02-02-01-01,0,22.15,8.84
+AudioSeal,0.005,random_noise (Black-box),03-02-05-02-02-01-01,0,22.15,12.93
+AudioSeal,0.005,pink_noise (Black-box),03-02-05-02-02-01-01,0,22.15,21.94
+AudioSeal,0.005,lowpass_filter (No-box),03-02-05-02-02-01-01,0,22.15,0.3
+AudioSeal,0.005,highpass_filter (No-box),03-02-05-02-02-01-01,0,22.15,-2.77
+AudioSeal,0.005,smooth (No-box),03-02-05-02-02-01-01,0,22.15,9.99
+AudioSeal,0.005,shush (No-box),03-02-05-02-02-01-01,0,22.15,19.65
+AudioSeal,0.005,mp3_compression (Black-box),03-02-05-02-02-01-01,0,22.15,-1.06
+AudioSeal,0.005,bandstop_filter (Grey-box),03-02-05-02-02-01-01,0,22.15,-3.5
+AudioSeal,0.005,adversarial_noise (White-box),03-02-05-02-02-01-01,0,22.15,-1.14
+AudioSeal,0.005,targeted_bandpass_noise (Grey-box),03-02-05-02-02-01-01,0,22.15,16.38
+AudioSeal,0.005,frequency_nulling (White-box),03-02-05-02-02-01-01,0,22.15,9.17
+AudioSeal,0.005,clean (control) (No-box),common_voice_en_42693841,0,27.31,27.31
+AudioSeal,0.005,speed (No-box),common_voice_en_42693841,0,27.31,-3.1
+AudioSeal,0.005,echo (No-box),common_voice_en_42693841,0,27.31,18.28
+AudioSeal,0.005,random_noise (Black-box),common_voice_en_42693841,0,27.31,18.06
+AudioSeal,0.005,pink_noise (Black-box),common_voice_en_42693841,0,27.31,27.03
+AudioSeal,0.005,lowpass_filter (No-box),common_voice_en_42693841,0,27.31,7.08
+AudioSeal,0.005,highpass_filter (No-box),common_voice_en_42693841,0,27.31,-0.92
+AudioSeal,0.005,smooth (No-box),common_voice_en_42693841,0,27.31,11.33
+AudioSeal,0.005,shush (No-box),common_voice_en_42693841,0,27.31,22.82
+AudioSeal,0.005,mp3_compression (Black-box),common_voice_en_42693841,0,27.31,5.31
+AudioSeal,0.005,bandstop_filter (Grey-box),common_voice_en_42693841,0,27.31,-2.54
+AudioSeal,0.005,adversarial_noise (White-box),common_voice_en_42693841,0,27.31,5.28
+AudioSeal,0.005,targeted_bandpass_noise (Grey-box),common_voice_en_42693841,0,27.31,21.59
+AudioSeal,0.005,frequency_nulling (White-box),common_voice_en_42693841,0,27.31,22.84
+AudioSeal,0.005,False Positive (Unmarked),03-01-06-01-02-02-01.wav,0,N/A,N/A
+AudioSeal,0.005,False Positive (Unmarked),03-02-05-02-02-01-01.wav,0,N/A,N/A
+AudioSeal,0.005,False Positive (Unmarked),common_voice_en_42693841.mp3,0,N/A,N/A
+AudioSeal,0.01,clean (control) (No-box),03-01-06-01-02-02-01,1,0.03,0.03
+AudioSeal,0.01,speed (No-box),03-01-06-01-02-02-01,0,0.03,-4.37
+AudioSeal,0.01,echo (No-box),03-01-06-01-02-02-01,0,0.03,2.34
+AudioSeal,0.01,random_noise (Black-box),03-01-06-01-02-02-01,1,0.03,-4.45
+AudioSeal,0.01,pink_noise (Black-box),03-01-06-01-02-02-01,1,0.03,0.03
+AudioSeal,0.01,lowpass_filter (No-box),03-01-06-01-02-02-01,1,0.03,-1.24
+AudioSeal,0.01,highpass_filter (No-box),03-01-06-01-02-02-01,0,0.03,-1.68
+AudioSeal,0.01,smooth (No-box),03-01-06-01-02-02-01,1,0.03,-0.24
+AudioSeal,0.01,shush (No-box),03-01-06-01-02-02-01,1,0.03,0.03
+AudioSeal,0.01,mp3_compression (Black-box),03-01-06-01-02-02-01,1,0.03,-27.1
+AudioSeal,0.01,bandstop_filter (Grey-box),03-01-06-01-02-02-01,1,0.03,-4.82
+AudioSeal,0.01,adversarial_noise (White-box),03-01-06-01-02-02-01,1,0.03,-27.16
+AudioSeal,0.01,targeted_bandpass_noise (Grey-box),03-01-06-01-02-02-01,1,0.03,-2.22
+AudioSeal,0.01,frequency_nulling (White-box),03-01-06-01-02-02-01,1,0.03,-0.04
+AudioSeal,0.01,clean (control) (No-box),03-02-05-02-02-01-01,0,16.12,16.12
+AudioSeal,0.01,speed (No-box),03-02-05-02-02-01-01,0,16.12,-3.21
+AudioSeal,0.01,echo (No-box),03-02-05-02-02-01-01,0,16.12,8.45
+AudioSeal,0.01,random_noise (Black-box),03-02-05-02-02-01-01,0,16.12,11.6
+AudioSeal,0.01,pink_noise (Black-box),03-02-05-02-02-01-01,0,16.12,16.13
+AudioSeal,0.01,lowpass_filter (No-box),03-02-05-02-02-01-01,0,16.12,0.21
+AudioSeal,0.01,highpass_filter (No-box),03-02-05-02-02-01-01,0,16.12,-2.77
+AudioSeal,0.01,smooth (No-box),03-02-05-02-02-01-01,0,16.12,7.84
+AudioSeal,0.01,shush (No-box),03-02-05-02-02-01-01,0,16.12,16.17
+AudioSeal,0.01,mp3_compression (Black-box),03-02-05-02-02-01-01,0,16.12,-1.44
+AudioSeal,0.01,bandstop_filter (Grey-box),03-02-05-02-02-01-01,0,16.12,-3.54
+AudioSeal,0.01,adversarial_noise (White-box),03-02-05-02-02-01-01,0,16.12,-1.18
+AudioSeal,0.01,targeted_bandpass_noise (Grey-box),03-02-05-02-02-01-01,0,16.12,13.84
+AudioSeal,0.01,frequency_nulling (White-box),03-02-05-02-02-01-01,0,16.12,8.56
+AudioSeal,0.01,clean (control) (No-box),common_voice_en_42693841,0,21.28,21.28
+AudioSeal,0.01,speed (No-box),common_voice_en_42693841,0,21.28,-2.93
+AudioSeal,0.01,echo (No-box),common_voice_en_42693841,0,21.28,8.75
+AudioSeal,0.01,random_noise (Black-box),common_voice_en_42693841,0,21.28,16.76
+AudioSeal,0.01,pink_noise (Black-box),common_voice_en_42693841,0,21.28,21.28
+AudioSeal,0.01,lowpass_filter (No-box),common_voice_en_42693841,0,21.28,6.96
+AudioSeal,0.01,highpass_filter (No-box),common_voice_en_42693841,0,21.28,-0.92
+AudioSeal,0.01,smooth (No-box),common_voice_en_42693841,0,21.28,11.06
+AudioSeal,0.01,shush (No-box),common_voice_en_42693841,0,21.28,21.28
+AudioSeal,0.01,mp3_compression (Black-box),common_voice_en_42693841,0,21.28,4.86
+AudioSeal,0.01,bandstop_filter (Grey-box),common_voice_en_42693841,0,21.28,-2.55
+AudioSeal,0.01,adversarial_noise (White-box),common_voice_en_42693841,0,21.28,5.13
+AudioSeal,0.01,targeted_bandpass_noise (Grey-box),common_voice_en_42693841,0,21.28,19.02
+AudioSeal,0.01,frequency_nulling (White-box),common_voice_en_42693841,0,21.28,19.67
+AudioSeal,0.01,False Positive (Unmarked),03-01-06-01-02-02-01.wav,0,N/A,N/A
+AudioSeal,0.01,False Positive (Unmarked),03-02-05-02-02-01-01.wav,0,N/A,N/A
+AudioSeal,0.01,False Positive (Unmarked),common_voice_en_42693841.mp3,0,N/A,N/A
+AudioSeal,0.02,clean (control) (No-box),03-01-06-01-02-02-01,1,-5.99,-5.99
+AudioSeal,0.02,speed (No-box),03-01-06-01-02-02-01,1,-5.99,-7.69
+AudioSeal,0.02,echo (No-box),03-01-06-01-02-02-01,1,-5.99,-6.58
+AudioSeal,0.02,random_noise (Black-box),03-01-06-01-02-02-01,1,-5.99,-7.63
+AudioSeal,0.02,pink_noise (Black-box),03-01-06-01-02-02-01,1,-5.99,-6.04
+AudioSeal,0.02,lowpass_filter (No-box),03-01-06-01-02-02-01,1,-5.99,-6.34
+AudioSeal,0.02,highpass_filter (No-box),03-01-06-01-02-02-01,0,-5.99,-1.71
+AudioSeal,0.02,smooth (No-box),03-01-06-01-02-02-01,1,-5.99,-6.02
+AudioSeal,0.02,shush (No-box),03-01-06-01-02-02-01,1,-5.99,-5.98
+AudioSeal,0.02,mp3_compression (Black-box),03-01-06-01-02-02-01,1,-5.99,-30.21
+AudioSeal,0.02,bandstop_filter (Grey-box),03-01-06-01-02-02-01,1,-5.99,-7.79
+AudioSeal,0.02,adversarial_noise (White-box),03-01-06-01-02-02-01,1,-5.99,-30.17
+AudioSeal,0.02,targeted_bandpass_noise (Grey-box),03-01-06-01-02-02-01,1,-5.99,-6.69
+AudioSeal,0.02,frequency_nulling (White-box),03-01-06-01-02-02-01,1,-5.99,-6.01
+AudioSeal,0.02,clean (control) (No-box),03-02-05-02-02-01-01,0,10.1,10.1
+AudioSeal,0.02,speed (No-box),03-02-05-02-02-01-01,0,10.1,-3.53
+AudioSeal,0.02,echo (No-box),03-02-05-02-02-01-01,0,10.1,6.45
+AudioSeal,0.02,random_noise (Black-box),03-02-05-02-02-01-01,0,10.1,8.45
+AudioSeal,0.02,pink_noise (Black-box),03-02-05-02-02-01-01,0,10.1,10.05
+AudioSeal,0.02,lowpass_filter (No-box),03-02-05-02-02-01-01,0,10.1,-0.11
+AudioSeal,0.02,highpass_filter (No-box),03-02-05-02-02-01-01,0,10.1,-2.77
+AudioSeal,0.02,smooth (No-box),03-02-05-02-02-01-01,0,10.1,6.24
+AudioSeal,0.02,shush (No-box),03-02-05-02-02-01-01,0,10.1,9.7
+AudioSeal,0.02,mp3_compression (Black-box),03-02-05-02-02-01-01,0,10.1,-2.15
+AudioSeal,0.02,bandstop_filter (Grey-box),03-02-05-02-02-01-01,0,10.1,-3.67
+AudioSeal,0.02,adversarial_noise (White-box),03-02-05-02-02-01-01,0,10.1,-1.92
+AudioSeal,0.02,targeted_bandpass_noise (Grey-box),03-02-05-02-02-01-01,0,10.1,9.41
+AudioSeal,0.02,frequency_nulling (White-box),03-02-05-02-02-01-01,0,10.1,6.73
+AudioSeal,0.02,clean (control) (No-box),common_voice_en_42693841,0,15.26,15.26
+AudioSeal,0.02,speed (No-box),common_voice_en_42693841,0,15.26,-2.88
+AudioSeal,0.02,echo (No-box),common_voice_en_42693841,0,15.26,7.2
+AudioSeal,0.02,random_noise (Black-box),common_voice_en_42693841,0,15.26,13.66
+AudioSeal,0.02,pink_noise (Black-box),common_voice_en_42693841,0,15.26,15.22
+AudioSeal,0.02,lowpass_filter (No-box),common_voice_en_42693841,0,15.26,6.5
+AudioSeal,0.02,highpass_filter (No-box),common_voice_en_42693841,0,15.26,-0.92
+AudioSeal,0.02,smooth (No-box),common_voice_en_42693841,0,15.26,10.8
+AudioSeal,0.02,shush (No-box),common_voice_en_42693841,0,15.26,15.27
+AudioSeal,0.02,mp3_compression (Black-box),common_voice_en_42693841,0,15.26,4.15
+AudioSeal,0.02,bandstop_filter (Grey-box),common_voice_en_42693841,0,15.26,-2.6
+AudioSeal,0.02,adversarial_noise (White-box),common_voice_en_42693841,0,15.26,4.08
+AudioSeal,0.02,targeted_bandpass_noise (Grey-box),common_voice_en_42693841,0,15.26,14.57
+AudioSeal,0.02,frequency_nulling (White-box),common_voice_en_42693841,0,15.26,14.8
+AudioSeal,0.02,False Positive (Unmarked),03-01-06-01-02-02-01.wav,0,N/A,N/A
+AudioSeal,0.02,False Positive (Unmarked),03-02-05-02-02-01-01.wav,0,N/A,N/A
+AudioSeal,0.02,False Positive (Unmarked),common_voice_en_42693841.mp3,0,N/A,N/A
+WavMark,N/A,clean (control) (No-box),03-01-06-01-02-02-01,1,47.54,47.54
+WavMark,N/A,speed (No-box),03-01-06-01-02-02-01,1,47.54,-3.01
+WavMark,N/A,echo (No-box),03-01-06-01-02-02-01,1,47.54,12.92
+WavMark,N/A,random_noise (Black-box),03-01-06-01-02-02-01,1,47.54,-2.61
+WavMark,N/A,pink_noise (Black-box),03-01-06-01-02-02-01,1,47.54,18.68
+WavMark,N/A,lowpass_filter (No-box),03-01-06-01-02-02-01,1,47.54,4.42
+WavMark,N/A,highpass_filter (No-box),03-01-06-01-02-02-01,1,47.54,-1.69
+WavMark,N/A,smooth (No-box),03-01-06-01-02-02-01,1,47.54,16.52
+WavMark,N/A,shush (No-box),03-01-06-01-02-02-01,1,47.54,47.56
+WavMark,N/A,mp3_compression (Black-box),03-01-06-01-02-02-01,1,47.54,-23.97
+WavMark,N/A,bandstop_filter (Grey-box),03-01-06-01-02-02-01,1,47.54,-3.03
+WavMark,N/A,adversarial_noise (White-box),03-01-06-01-02-02-01,1,47.54,-23.88
+WavMark,N/A,targeted_bandpass_noise (Grey-box),03-01-06-01-02-02-01,1,47.54,2.99
+WavMark,N/A,frequency_nulling (White-box),03-01-06-01-02-02-01,1,47.54,17.48
+WavMark,N/A,clean (control) (No-box),03-02-05-02-02-01-01,1,41.32,41.32
+WavMark,N/A,speed (No-box),03-02-05-02-02-01-01,1,41.32,-3.02
+WavMark,N/A,echo (No-box),03-02-05-02-02-01-01,1,41.32,18.41
+WavMark,N/A,random_noise (Black-box),03-02-05-02-02-01-01,1,41.32,13.42
+WavMark,N/A,pink_noise (Black-box),03-02-05-02-02-01-01,1,41.32,33.95
+WavMark,N/A,lowpass_filter (No-box),03-02-05-02-02-01-01,1,41.32,0.12
+WavMark,N/A,highpass_filter (No-box),03-02-05-02-02-01-01,1,41.32,-2.82
+WavMark,N/A,smooth (No-box),03-02-05-02-02-01-01,1,41.32,12.44
+WavMark,N/A,shush (No-box),03-02-05-02-02-01-01,1,41.32,20.45
+WavMark,N/A,mp3_compression (Black-box),03-02-05-02-02-01-01,1,41.32,-1.11
+WavMark,N/A,bandstop_filter (Grey-box),03-02-05-02-02-01-01,1,41.32,-3.52
+WavMark,N/A,adversarial_noise (White-box),03-02-05-02-02-01-01,1,41.32,-1.28
+WavMark,N/A,targeted_bandpass_noise (Grey-box),03-02-05-02-02-01-01,1,41.32,19.0
+WavMark,N/A,frequency_nulling (White-box),03-02-05-02-02-01-01,1,41.32,11.78
+WavMark,N/A,clean (control) (No-box),common_voice_en_42693841,1,39.63,39.63
+WavMark,N/A,speed (No-box),common_voice_en_42693841,0,39.63,0
+WavMark,N/A,echo (No-box),common_voice_en_42693841,1,39.63,7.08
+WavMark,N/A,random_noise (Black-box),common_voice_en_42693841,1,39.63,18.58
+WavMark,N/A,pink_noise (Black-box),common_voice_en_42693841,1,39.63,36.87
+WavMark,N/A,lowpass_filter (No-box),common_voice_en_42693841,1,39.63,7.0
+WavMark,N/A,highpass_filter (No-box),common_voice_en_42693841,1,39.63,-0.97
+WavMark,N/A,smooth (No-box),common_voice_en_42693841,1,39.63,12.71
+WavMark,N/A,shush (No-box),common_voice_en_42693841,1,39.63,39.57
+WavMark,N/A,mp3_compression (Black-box),common_voice_en_42693841,1,39.63,4.6
+WavMark,N/A,bandstop_filter (Grey-box),common_voice_en_42693841,1,39.63,-2.55
+WavMark,N/A,adversarial_noise (White-box),common_voice_en_42693841,1,39.63,4.66
+WavMark,N/A,targeted_bandpass_noise (Grey-box),common_voice_en_42693841,1,39.63,24.03
+WavMark,N/A,frequency_nulling (White-box),common_voice_en_42693841,1,39.63,23.92
+WavMark,N/A,False Positive (Unmarked),03-01-06-01-02-02-01.wav,0,N/A,N/A
+WavMark,N/A,False Positive (Unmarked),03-02-05-02-02-01-01.wav,0,N/A,N/A
+WavMark,N/A,False Positive (Unmarked),common_voice_en_42693841.mp3,0,N/A,N/A
+WavMark,N/A,clean (control) (No-box),03-01-06-01-02-02-01,1,60.04,60.04
+WavMark,N/A,speed (No-box),03-01-06-01-02-02-01,1,60.04,-2.76
+WavMark,N/A,echo (No-box),03-01-06-01-02-02-01,1,60.04,8.62
+WavMark,N/A,random_noise (Black-box),03-01-06-01-02-02-01,1,60.04,-2.6
+WavMark,N/A,pink_noise (Black-box),03-01-06-01-02-02-01,1,60.04,18.87
+WavMark,N/A,lowpass_filter (No-box),03-01-06-01-02-02-01,1,60.04,4.42
+WavMark,N/A,highpass_filter (No-box),03-01-06-01-02-02-01,1,60.04,-1.69
+WavMark,N/A,smooth (No-box),03-01-06-01-02-02-01,1,60.04,13.52
+WavMark,N/A,shush (No-box),03-01-06-01-02-02-01,1,60.04,58.08
+WavMark,N/A,mp3_compression (Black-box),03-01-06-01-02-02-01,1,60.04,-24.01
+WavMark,N/A,bandstop_filter (Grey-box),03-01-06-01-02-02-01,1,60.04,-3.03
+WavMark,N/A,adversarial_noise (White-box),03-01-06-01-02-02-01,1,60.04,-23.87
+WavMark,N/A,targeted_bandpass_noise (Grey-box),03-01-06-01-02-02-01,1,60.04,2.94
+WavMark,N/A,frequency_nulling (White-box),03-01-06-01-02-02-01,1,60.04,17.48
+WavMark,N/A,clean (control) (No-box),03-02-05-02-02-01-01,1,48.04,48.04
+WavMark,N/A,speed (No-box),03-02-05-02-02-01-01,1,48.04,-2.87
+WavMark,N/A,echo (No-box),03-02-05-02-02-01-01,1,48.04,6.78
+WavMark,N/A,random_noise (Black-box),03-02-05-02-02-01-01,1,48.04,13.44
+WavMark,N/A,pink_noise (Black-box),03-02-05-02-02-01-01,1,48.04,34.43
+WavMark,N/A,lowpass_filter (No-box),03-02-05-02-02-01-01,1,48.04,0.12
+WavMark,N/A,highpass_filter (No-box),03-02-05-02-02-01-01,1,48.04,-2.82
+WavMark,N/A,smooth (No-box),03-02-05-02-02-01-01,1,48.04,10.66
+WavMark,N/A,shush (No-box),03-02-05-02-02-01-01,1,48.04,35.01
+WavMark,N/A,mp3_compression (Black-box),03-02-05-02-02-01-01,1,48.04,-1.12
+WavMark,N/A,bandstop_filter (Grey-box),03-02-05-02-02-01-01,1,48.04,-3.52
+WavMark,N/A,adversarial_noise (White-box),03-02-05-02-02-01-01,1,48.04,-1.28
+WavMark,N/A,targeted_bandpass_noise (Grey-box),03-02-05-02-02-01-01,1,48.04,18.97
+WavMark,N/A,frequency_nulling (White-box),03-02-05-02-02-01-01,1,48.04,11.78
+WavMark,N/A,clean (control) (No-box),common_voice_en_42693841,1,61.08,61.08
+WavMark,N/A,speed (No-box),common_voice_en_42693841,1,61.08,-2.82
+WavMark,N/A,echo (No-box),common_voice_en_42693841,1,61.08,8.28
+WavMark,N/A,random_noise (Black-box),common_voice_en_42693841,1,61.08,18.62
+WavMark,N/A,pink_noise (Black-box),common_voice_en_42693841,1,61.08,39.8
+WavMark,N/A,lowpass_filter (No-box),common_voice_en_42693841,1,61.08,7.0
+WavMark,N/A,highpass_filter (No-box),common_voice_en_42693841,1,61.08,-0.97
+WavMark,N/A,smooth (No-box),common_voice_en_42693841,1,61.08,15.24
+WavMark,N/A,shush (No-box),common_voice_en_42693841,1,61.08,33.88
+WavMark,N/A,mp3_compression (Black-box),common_voice_en_42693841,1,61.08,4.58
+WavMark,N/A,bandstop_filter (Grey-box),common_voice_en_42693841,1,61.08,-2.55
+WavMark,N/A,adversarial_noise (White-box),common_voice_en_42693841,1,61.08,4.7
+WavMark,N/A,targeted_bandpass_noise (Grey-box),common_voice_en_42693841,1,61.08,24.23
+WavMark,N/A,frequency_nulling (White-box),common_voice_en_42693841,1,61.08,24.04
+WavMark,N/A,False Positive (Unmarked),03-01-06-01-02-02-01.wav,0,N/A,N/A
+WavMark,N/A,False Positive (Unmarked),03-02-05-02-02-01-01.wav,0,N/A,N/A
+WavMark,N/A,False Positive (Unmarked),common_voice_en_42693841.mp3,0,N/A,N/A
+WavMark,N/A,clean (control) (No-box),03-01-06-01-02-02-01,1,53.12,53.12
+WavMark,N/A,speed (No-box),03-01-06-01-02-02-01,0,53.12,0
+WavMark,N/A,echo (No-box),03-01-06-01-02-02-01,1,53.12,11.0
+WavMark,N/A,random_noise (Black-box),03-01-06-01-02-02-01,1,53.12,-2.6
+WavMark,N/A,pink_noise (Black-box),03-01-06-01-02-02-01,1,53.12,18.58
+WavMark,N/A,lowpass_filter (No-box),03-01-06-01-02-02-01,1,53.12,4.42
+WavMark,N/A,highpass_filter (No-box),03-01-06-01-02-02-01,1,53.12,-1.69
+WavMark,N/A,smooth (No-box),03-01-06-01-02-02-01,1,53.12,13.52
+WavMark,N/A,shush (No-box),03-01-06-01-02-02-01,1,53.12,17.27
+WavMark,N/A,mp3_compression (Black-box),03-01-06-01-02-02-01,1,53.12,-23.8
+WavMark,N/A,bandstop_filter (Grey-box),03-01-06-01-02-02-01,1,53.12,-3.03
+WavMark,N/A,adversarial_noise (White-box),03-01-06-01-02-02-01,1,53.12,-23.87
+WavMark,N/A,targeted_bandpass_noise (Grey-box),03-01-06-01-02-02-01,1,53.12,2.99
+WavMark,N/A,frequency_nulling (White-box),03-01-06-01-02-02-01,1,53.12,17.48
+WavMark,N/A,clean (control) (No-box),03-02-05-02-02-01-01,1,47.4,47.4
+WavMark,N/A,speed (No-box),03-02-05-02-02-01-01,1,47.4,-3.32
+WavMark,N/A,echo (No-box),03-02-05-02-02-01-01,1,47.4,10.25
+WavMark,N/A,random_noise (Black-box),03-02-05-02-02-01-01,1,47.4,13.46
+WavMark,N/A,pink_noise (Black-box),03-02-05-02-02-01-01,1,47.4,34.53
+WavMark,N/A,lowpass_filter (No-box),03-02-05-02-02-01-01,1,47.4,0.12
+WavMark,N/A,highpass_filter (No-box),03-02-05-02-02-01-01,1,47.4,-2.82
+WavMark,N/A,smooth (No-box),03-02-05-02-02-01-01,1,47.4,12.44
+WavMark,N/A,shush (No-box),03-02-05-02-02-01-01,1,47.4,21.23
+WavMark,N/A,mp3_compression (Black-box),03-02-05-02-02-01-01,1,47.4,-1.11
+WavMark,N/A,bandstop_filter (Grey-box),03-02-05-02-02-01-01,1,47.4,-3.52
+WavMark,N/A,adversarial_noise (White-box),03-02-05-02-02-01-01,1,47.4,-1.28
+WavMark,N/A,targeted_bandpass_noise (Grey-box),03-02-05-02-02-01-01,1,47.4,19.02
+WavMark,N/A,frequency_nulling (White-box),03-02-05-02-02-01-01,1,47.4,11.78
+WavMark,N/A,clean (control) (No-box),common_voice_en_42693841,1,44.2,44.2
+WavMark,N/A,speed (No-box),common_voice_en_42693841,1,44.2,-2.97
+WavMark,N/A,echo (No-box),common_voice_en_42693841,1,44.2,9.37
+WavMark,N/A,random_noise (Black-box),common_voice_en_42693841,1,44.2,18.59
+WavMark,N/A,pink_noise (Black-box),common_voice_en_42693841,1,44.2,38.6
+WavMark,N/A,lowpass_filter (No-box),common_voice_en_42693841,1,44.2,7.0
+WavMark,N/A,highpass_filter (No-box),common_voice_en_42693841,1,44.2,-0.97
+WavMark,N/A,smooth (No-box),common_voice_en_42693841,1,44.2,12.71
+WavMark,N/A,shush (No-box),common_voice_en_42693841,1,44.2,44.06
+WavMark,N/A,mp3_compression (Black-box),common_voice_en_42693841,1,44.2,4.58
+WavMark,N/A,bandstop_filter (Grey-box),common_voice_en_42693841,1,44.2,-2.55
+WavMark,N/A,adversarial_noise (White-box),common_voice_en_42693841,1,44.2,4.53
+WavMark,N/A,targeted_bandpass_noise (Grey-box),common_voice_en_42693841,1,44.2,24.15
+WavMark,N/A,frequency_nulling (White-box),common_voice_en_42693841,1,44.2,24.0
+WavMark,N/A,False Positive (Unmarked),03-01-06-01-02-02-01.wav,0,N/A,N/A
+WavMark,N/A,False Positive (Unmarked),03-02-05-02-02-01-01.wav,0,N/A,N/A
+WavMark,N/A,False Positive (Unmarked),common_voice_en_42693841.mp3,0,N/A,N/A
+SilentCipher,N/A,clean (control) (No-box),03-01-06-01-02-02-01,1,104.39,104.39
+SilentCipher,N/A,speed (No-box),03-01-06-01-02-02-01,0,104.39,-3.08
+SilentCipher,N/A,echo (No-box),03-01-06-01-02-02-01,0,104.39,9.8
+SilentCipher,N/A,random_noise (Black-box),03-01-06-01-02-02-01,0,104.39,-2.61
+SilentCipher,N/A,pink_noise (Black-box),03-01-06-01-02-02-01,0,104.39,18.72
+SilentCipher,N/A,lowpass_filter (No-box),03-01-06-01-02-02-01,1,104.39,4.16
+SilentCipher,N/A,highpass_filter (No-box),03-01-06-01-02-02-01,0,104.39,-1.7
+SilentCipher,N/A,smooth (No-box),03-01-06-01-02-02-01,1,104.39,24.04
+SilentCipher,N/A,shush (No-box),03-01-06-01-02-02-01,1,104.39,88.57
+SilentCipher,N/A,mp3_compression (Black-box),03-01-06-01-02-02-01,0,104.39,-23.48
+SilentCipher,N/A,bandstop_filter (Grey-box),03-01-06-01-02-02-01,1,104.39,-3.0
+SilentCipher,N/A,adversarial_noise (White-box),03-01-06-01-02-02-01,0,104.39,-24.08
+SilentCipher,N/A,targeted_bandpass_noise (Grey-box),03-01-06-01-02-02-01,1,104.39,5.92
+SilentCipher,N/A,frequency_nulling (White-box),03-01-06-01-02-02-01,1,104.39,21.54
+SilentCipher,N/A,clean (control) (No-box),03-02-05-02-02-01-01,1,122.85,122.85
+SilentCipher,N/A,speed (No-box),03-02-05-02-02-01-01,0,122.85,-2.69
+SilentCipher,N/A,echo (No-box),03-02-05-02-02-01-01,0,122.85,12.29
+SilentCipher,N/A,random_noise (Black-box),03-02-05-02-02-01-01,0,122.85,13.46
+SilentCipher,N/A,pink_noise (Black-box),03-02-05-02-02-01-01,0,122.85,34.73
+SilentCipher,N/A,lowpass_filter (No-box),03-02-05-02-02-01-01,0,122.85,-0.06
+SilentCipher,N/A,highpass_filter (No-box),03-02-05-02-02-01-01,0,122.85,-2.84
+SilentCipher,N/A,smooth (No-box),03-02-05-02-02-01-01,1,122.85,15.89
+SilentCipher,N/A,shush (No-box),03-02-05-02-02-01-01,0,122.85,28.37
+SilentCipher,N/A,mp3_compression (Black-box),03-02-05-02-02-01-01,0,122.85,-1.67
+SilentCipher,N/A,bandstop_filter (Grey-box),03-02-05-02-02-01-01,0,122.85,-3.55
+SilentCipher,N/A,adversarial_noise (White-box),03-02-05-02-02-01-01,0,122.85,-1.14
+SilentCipher,N/A,targeted_bandpass_noise (Grey-box),03-02-05-02-02-01-01,0,122.85,22.02
+SilentCipher,N/A,frequency_nulling (White-box),03-02-05-02-02-01-01,1,122.85,16.08
+SilentCipher,N/A,clean (control) (No-box),common_voice_en_42693841,1,125.78,125.78
+SilentCipher,N/A,speed (No-box),common_voice_en_42693841,0,125.78,-3.2
+SilentCipher,N/A,echo (No-box),common_voice_en_42693841,0,125.78,17.35
+SilentCipher,N/A,random_noise (Black-box),common_voice_en_42693841,0,125.78,18.62
+SilentCipher,N/A,pink_noise (Black-box),common_voice_en_42693841,0,125.78,39.91
+SilentCipher,N/A,lowpass_filter (No-box),common_voice_en_42693841,1,125.78,6.75
+SilentCipher,N/A,highpass_filter (No-box),common_voice_en_42693841,0,125.78,-0.98
+SilentCipher,N/A,smooth (No-box),common_voice_en_42693841,1,125.78,20.29
+SilentCipher,N/A,shush (No-box),common_voice_en_42693841,0,125.78,31.09
+SilentCipher,N/A,mp3_compression (Black-box),common_voice_en_42693841,0,125.78,5.48
+SilentCipher,N/A,bandstop_filter (Grey-box),common_voice_en_42693841,0,125.78,-2.56
+SilentCipher,N/A,adversarial_noise (White-box),common_voice_en_42693841,0,125.78,4.7
+SilentCipher,N/A,targeted_bandpass_noise (Grey-box),common_voice_en_42693841,0,125.78,27.22
+SilentCipher,N/A,frequency_nulling (White-box),common_voice_en_42693841,1,125.78,14.26
+SilentCipher,N/A,False Positive (Unmarked),03-01-06-01-02-02-01.wav,0,N/A,N/A
+SilentCipher,N/A,False Positive (Unmarked),03-02-05-02-02-01-01.wav,0,N/A,N/A
+SilentCipher,N/A,False Positive (Unmarked),common_voice_en_42693841.mp3,0,N/A,N/A
+SilentCipher,N/A,clean (control) (No-box),03-01-06-01-02-02-01,1,105.35,105.35
+SilentCipher,N/A,speed (No-box),03-01-06-01-02-02-01,0,105.35,-3.33
+SilentCipher,N/A,echo (No-box),03-01-06-01-02-02-01,0,105.35,17.59
+SilentCipher,N/A,random_noise (Black-box),03-01-06-01-02-02-01,0,105.35,-2.62
+SilentCipher,N/A,pink_noise (Black-box),03-01-06-01-02-02-01,0,105.35,18.78
+SilentCipher,N/A,lowpass_filter (No-box),03-01-06-01-02-02-01,1,105.35,4.16
+SilentCipher,N/A,highpass_filter (No-box),03-01-06-01-02-02-01,0,105.35,-1.7
+SilentCipher,N/A,smooth (No-box),03-01-06-01-02-02-01,1,105.35,18.54
+SilentCipher,N/A,shush (No-box),03-01-06-01-02-02-01,0,105.35,17.79
+SilentCipher,N/A,mp3_compression (Black-box),03-01-06-01-02-02-01,0,105.35,-23.5
+SilentCipher,N/A,bandstop_filter (Grey-box),03-01-06-01-02-02-01,1,105.35,-3.0
+SilentCipher,N/A,adversarial_noise (White-box),03-01-06-01-02-02-01,0,105.35,-24.2
+SilentCipher,N/A,targeted_bandpass_noise (Grey-box),03-01-06-01-02-02-01,0,105.35,5.89
+SilentCipher,N/A,frequency_nulling (White-box),03-01-06-01-02-02-01,1,105.35,21.54
+SilentCipher,N/A,clean (control) (No-box),03-02-05-02-02-01-01,1,122.46,122.46
+SilentCipher,N/A,speed (No-box),03-02-05-02-02-01-01,0,122.46,-3.14
+SilentCipher,N/A,echo (No-box),03-02-05-02-02-01-01,0,122.46,7.52
+SilentCipher,N/A,random_noise (Black-box),03-02-05-02-02-01-01,0,122.46,13.47
+SilentCipher,N/A,pink_noise (Black-box),03-02-05-02-02-01-01,0,122.46,34.62
+SilentCipher,N/A,lowpass_filter (No-box),03-02-05-02-02-01-01,0,122.46,-0.06
+SilentCipher,N/A,highpass_filter (No-box),03-02-05-02-02-01-01,0,122.46,-2.84
+SilentCipher,N/A,smooth (No-box),03-02-05-02-02-01-01,1,122.46,16.02
+SilentCipher,N/A,shush (No-box),03-02-05-02-02-01-01,0,122.46,23.31
+SilentCipher,N/A,mp3_compression (Black-box),03-02-05-02-02-01-01,0,122.46,-2.14
+SilentCipher,N/A,bandstop_filter (Grey-box),03-02-05-02-02-01-01,0,122.46,-3.55
+SilentCipher,N/A,adversarial_noise (White-box),03-02-05-02-02-01-01,0,122.46,-1.28
+SilentCipher,N/A,targeted_bandpass_noise (Grey-box),03-02-05-02-02-01-01,1,122.46,21.97
+SilentCipher,N/A,frequency_nulling (White-box),03-02-05-02-02-01-01,1,122.46,16.08
+SilentCipher,N/A,clean (control) (No-box),common_voice_en_42693841,1,126.29,126.29
+SilentCipher,N/A,speed (No-box),common_voice_en_42693841,0,126.29,-3.23
+SilentCipher,N/A,echo (No-box),common_voice_en_42693841,0,126.29,11.7
+SilentCipher,N/A,random_noise (Black-box),common_voice_en_42693841,0,126.29,18.62
+SilentCipher,N/A,pink_noise (Black-box),common_voice_en_42693841,0,126.29,39.86
+SilentCipher,N/A,lowpass_filter (No-box),common_voice_en_42693841,1,126.29,6.75
+SilentCipher,N/A,highpass_filter (No-box),common_voice_en_42693841,0,126.29,-0.98
+SilentCipher,N/A,smooth (No-box),common_voice_en_42693841,1,126.29,18.38
+SilentCipher,N/A,shush (No-box),common_voice_en_42693841,0,126.29,91.76
+SilentCipher,N/A,mp3_compression (Black-box),common_voice_en_42693841,0,126.29,4.56
+SilentCipher,N/A,bandstop_filter (Grey-box),common_voice_en_42693841,0,126.29,-2.56
+SilentCipher,N/A,adversarial_noise (White-box),common_voice_en_42693841,0,126.29,4.55
+SilentCipher,N/A,targeted_bandpass_noise (Grey-box),common_voice_en_42693841,0,126.29,27.15
+SilentCipher,N/A,frequency_nulling (White-box),common_voice_en_42693841,1,126.29,14.26
+SilentCipher,N/A,False Positive (Unmarked),03-01-06-01-02-02-01.wav,0,N/A,N/A
+SilentCipher,N/A,False Positive (Unmarked),03-02-05-02-02-01-01.wav,0,N/A,N/A
+SilentCipher,N/A,False Positive (Unmarked),common_voice_en_42693841.mp3,0,N/A,N/A
+SilentCipher,N/A,clean (control) (No-box),03-01-06-01-02-02-01,1,105.63,105.63
+SilentCipher,N/A,speed (No-box),03-01-06-01-02-02-01,0,105.63,-3.02
+SilentCipher,N/A,echo (No-box),03-01-06-01-02-02-01,0,105.63,14.81
+SilentCipher,N/A,random_noise (Black-box),03-01-06-01-02-02-01,0,105.63,-2.58
+SilentCipher,N/A,pink_noise (Black-box),03-01-06-01-02-02-01,0,105.63,18.62
+SilentCipher,N/A,lowpass_filter (No-box),03-01-06-01-02-02-01,1,105.63,4.16
+SilentCipher,N/A,highpass_filter (No-box),03-01-06-01-02-02-01,0,105.63,-1.7
+SilentCipher,N/A,smooth (No-box),03-01-06-01-02-02-01,1,105.63,24.04
+SilentCipher,N/A,shush (No-box),03-01-06-01-02-02-01,0,105.63,22.31
+SilentCipher,N/A,mp3_compression (Black-box),03-01-06-01-02-02-01,0,105.63,-23.48
+SilentCipher,N/A,bandstop_filter (Grey-box),03-01-06-01-02-02-01,1,105.63,-3.0
+SilentCipher,N/A,adversarial_noise (White-box),03-01-06-01-02-02-01,0,105.63,-23.89
+SilentCipher,N/A,targeted_bandpass_noise (Grey-box),03-01-06-01-02-02-01,0,105.63,5.95
+SilentCipher,N/A,frequency_nulling (White-box),03-01-06-01-02-02-01,1,105.63,21.54
+SilentCipher,N/A,clean (control) (No-box),03-02-05-02-02-01-01,1,123.07,123.07
+SilentCipher,N/A,speed (No-box),03-02-05-02-02-01-01,0,123.07,-3.36
+SilentCipher,N/A,echo (No-box),03-02-05-02-02-01-01,0,123.07,10.33
+SilentCipher,N/A,random_noise (Black-box),03-02-05-02-02-01-01,0,123.07,13.46
+SilentCipher,N/A,pink_noise (Black-box),03-02-05-02-02-01-01,0,123.07,34.58
+SilentCipher,N/A,lowpass_filter (No-box),03-02-05-02-02-01-01,0,123.07,-0.06
+SilentCipher,N/A,highpass_filter (No-box),03-02-05-02-02-01-01,0,123.07,-2.84
+SilentCipher,N/A,smooth (No-box),03-02-05-02-02-01-01,1,123.07,16.02
+SilentCipher,N/A,shush (No-box),03-02-05-02-02-01-01,1,123.07,56.38
+SilentCipher,N/A,mp3_compression (Black-box),03-02-05-02-02-01-01,0,123.07,-1.67
+SilentCipher,N/A,bandstop_filter (Grey-box),03-02-05-02-02-01-01,0,123.07,-3.55
+SilentCipher,N/A,adversarial_noise (White-box),03-02-05-02-02-01-01,0,123.07,-1.28
+SilentCipher,N/A,targeted_bandpass_noise (Grey-box),03-02-05-02-02-01-01,0,123.07,22.06
+SilentCipher,N/A,frequency_nulling (White-box),03-02-05-02-02-01-01,1,123.07,16.08
+SilentCipher,N/A,clean (control) (No-box),common_voice_en_42693841,1,125.78,125.78
+SilentCipher,N/A,speed (No-box),common_voice_en_42693841,0,125.78,-2.83
+SilentCipher,N/A,echo (No-box),common_voice_en_42693841,0,125.78,13.67
+SilentCipher,N/A,random_noise (Black-box),common_voice_en_42693841,0,125.78,18.63
+SilentCipher,N/A,pink_noise (Black-box),common_voice_en_42693841,0,125.78,40.02
+SilentCipher,N/A,lowpass_filter (No-box),common_voice_en_42693841,1,125.78,6.75
+SilentCipher,N/A,highpass_filter (No-box),common_voice_en_42693841,0,125.78,-0.98
+SilentCipher,N/A,smooth (No-box),common_voice_en_42693841,1,125.78,24.8
+SilentCipher,N/A,shush (No-box),common_voice_en_42693841,0,125.78,21.6
+SilentCipher,N/A,mp3_compression (Black-box),common_voice_en_42693841,0,125.78,4.76
+SilentCipher,N/A,bandstop_filter (Grey-box),common_voice_en_42693841,0,125.78,-2.56
+SilentCipher,N/A,adversarial_noise (White-box),common_voice_en_42693841,0,125.78,4.7
+SilentCipher,N/A,targeted_bandpass_noise (Grey-box),common_voice_en_42693841,0,125.78,27.19
+SilentCipher,N/A,frequency_nulling (White-box),common_voice_en_42693841,1,125.78,14.26
+SilentCipher,N/A,False Positive (Unmarked),03-01-06-01-02-02-01.wav,0,N/A,N/A
+SilentCipher,N/A,False Positive (Unmarked),03-02-05-02-02-01-01.wav,0,N/A,N/A
+SilentCipher,N/A,False Positive (Unmarked),common_voice_en_42693841.mp3,0,N/A,N/A
