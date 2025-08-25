@@ -16,8 +16,6 @@ This demo illustrates how watermarking systems can:
 - Test robustness under common perturbations (compression, noise, filtering).
 - Simulate attacks (white-box, black-box, gray-box, no-box) and their impact on watermark resilience.
 
-For the full technical details, see the research paper (PDF).
-
 ⚙️ Features:
 
 Three-tier modular architecture inspired by the original application
