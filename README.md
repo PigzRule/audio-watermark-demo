@@ -3,7 +3,8 @@
 This repository contains the demonstration version of my senior research project:
 “Embedding Security: Audio Watermarking and the Fight Against Unauthorized Music Leaks” (Stetson University, Spring 2025).
 
-Unlike the full research implementation, this demo is designed to be lightweight, portable, and accessible. It simulates the logic and results of real watermark embedding, detection, and adversarial testing — without requiring access to the original trained models.
+Unlike the full research implementation, this demo is designed to be lightweight, portable, and accessible. It simulates the logic and results of real watermark embedding, detection, and adversarial testing without requiring access to the original trained models.
+
 
 📖 Background
 Unauthorized leaks of unreleased music cause massive losses in revenue, control, and reputation for artists and labels.
@@ -37,6 +38,7 @@ Attack simulation modes:
 
 Result Visualization: Graphs of detection probability, robustness under noise, and adversarial impact.
 
+
 🚀 Getting Started
 Prerequisites:
 - Python 3.9+
@@ -52,10 +54,12 @@ This will launch the demo interface with the following tabs:
 - Detect Watermark – Upload an audio file and check if a watermark is detected.
 - Security Testing – Run attack simulations and view resilience results.
 
+
 📊 Example Outputs
 - Detection probability graphs under adversarial settings.
 - Resilience charts showing robustness of AudioSeal, WavMark, and SilentCipher.
 - Simulated confusion matrix for false positive/negative rates.
+
 
 🛠️ Project Structure:
 
@@ -66,6 +70,7 @@ This will launch the demo interface with the following tabs:
 │   └── Embedding Security - Audio Watermarking (Final).pptx
 └── README.md
 
+
 🔬 Research Context
 
 This demo is a companion to my senior research project, where I benchmarked state-of-the-art watermarking algorithms under adversarial conditions.
@@ -73,6 +78,7 @@ This demo is a companion to my senior research project, where I benchmarked stat
 . WavMark maintained >90% resilience under compression & resampling
 . SilentCipher consistently resisted adversarial perturbations by using psychoacoustic masking
 . The full paper expands on methodology, architecture, and future directions such as algorithm rotation, blockchain timestamping, and adversarial training
+
 
 📌 Citation
 
@@ -84,6 +90,7 @@ If you use this demo or research, please cite:
   school={Stetson University},
   year={2025}
 }
+
 
 📬 Contact
 Created by William Holland
